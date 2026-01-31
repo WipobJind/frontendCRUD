@@ -29,3 +29,19 @@ button, .btn-primary, .btn-success, .btn-danger, .btn-secondary { padding: 0.5re
 .alert { padding: 1rem; border-radius: 4px; margin-bottom: 1rem; }
 .alert.success { background: #d4edda; color: #155724; }
 .alert.error { background: #f8d7da; color: #721c24; }
+header nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.2);
+  }
+  
+  header nav a:hover {
+    background: rgba(255,255,255,0.3);
+  }
